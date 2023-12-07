@@ -1,0 +1,79 @@
+
+
+#levelDisplay{
+
+    font-family: 'Nes Controller', sans-serif;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 30px;
+                                                
+                
+}
+
+body{
+
+    background-color: #5d93fd;
+    
+}
+
+
+#smallTopLine, #smallBottomLine{
+    font-family: 'New Super Mario Font U', sans-serif;
+
+}
+
+#startSection{
+
+    display: block;
+
+    letter-spacing: -5px;
+
+    font-family: 'New Super Mario Font U', sans-serif;
+}
+
+#questionSection{
+
+    display: none;
+
+    font-family: 'Nes Controller', sans-serif;
+    /* font-family: 'New Super Mario Font U', sans-serif; */
+    
+}
+
+#finalSection{
+
+    display: none;
+    font-family: 'New Super Mario Font U', sans-serif;
+
+}
+
+
+
+
+
+
+#marioText  {
+    text-shadow:
+-5px -5px 0 #000,  
+ 1px -5px 0 #000,
+ -5px 5px 0 #000,
+  5px 5px 0 #000;
+
+
+
+}
+
+input[type=radio] {
+    appearance: none;
+    padding: 20px;
+    background-color: #991b1b;
+    border-radius:50%;
+    -webkit-box-shadow: 2px 5px 3px 1px #000000; 
+    box-shadow: 2px 5px 3px 1px #000000;
+ }
+ input[type=radio]:checked {
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+    
+ }
